@@ -3,8 +3,8 @@ import './App.css'
 import NotFound from "./components/not-found/NotFound";
 import Home from "./components/home/Home";
 import ContactUsComponent from "./components/contact-us/ContactUsComponent";
-import BottomNavBar from "./components/BottomNavbar";
-import Footer from "./components/Footer";
+// import BottomNavBar from "./components/BottomNavbar";
+// import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
           {/* <Route path="/profile1" element={<Dashboard/>}/> */}
         </Routes>
       </main>
-      <Footer />
-      <BottomNavBar />
+      {/* <Footer /> */}
+      {/* <BottomNavBar /> */}
     </Router>
   );
 }

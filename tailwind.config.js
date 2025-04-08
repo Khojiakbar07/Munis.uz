@@ -13,6 +13,11 @@ export default {
           'max-376': {'max': '376px'},
           'max-361': {'max': '361px'},
         },
+        colors: {
+          green: {
+            900: "#003B30", // Or any matching dark green from your image
+          },
+        },
       },
     },
     plugins: [],
