@@ -3,6 +3,7 @@ import { LineSpinner } from 'ldrs/react';
 lineSpinner.register()
 import { useState, useEffect } from "react";
 import { FaArrowUp } from "react-icons/fa";
+import CarouselBanner from '../CarouselBanner';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -37,16 +38,15 @@ const Home = () => {
     <main>
       {loading ? (
         <div className="fixed inset-0 flex justify-center items-center bg-white/50 backdrop-blur-sm z-50">
-            <LineSpinner size="40" stroke="3" speed="1" color="black" />
+            <LineSpinner size="40" stroke="3" speed="1" color="green" />
         </div>
       ) : (
         <>
-          {/* <CarouselBanner />
-          <About />
-          <NewsCarousel />
-          <Services />
-          <Contact />
-          <PartnersCarousel /> */}
+          <CarouselBanner />
+          {/* <About />
+
+
+
           {/* Back to Top Button */}
           {showScrollTop && (
             <button
